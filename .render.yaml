@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: telegram-thingsboard-bot
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn app:app
